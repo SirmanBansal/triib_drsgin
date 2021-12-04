@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="triib.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+	
+</head>
+<body>
+
+	
+
+	<header class="header">
+		<div class="mainnavbar">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">	<img src="pics/logotriib.png"></a>
+				</div>
+				<div class="navbar">
+					<nav>
+						<ul>
+							<li class="dropdown"><button onclick="myFunction()" class="dropbtn">SOFTWARE<span class="arrow down"></span></button>
+								<div id="myDropdown" class="dropdown-content">
+									<!-- <div class="drops"> -->
+										<ul class="drops">
+											<li class="drop1">
+												<h3>ABOUT</h3>
+												<h5>HOW WE STARTED & WHO WE SERVE</h5>
+												<p>Vision & Mission</p>
+
+												<li class="drop2">
+													<h3>GYM MANAGEMENT</h3>
+													<img src="pics/drop1.webp">
+													<h5>All-in-One Gym Management Platform</h5>
+												</li>
+												<li class="drop3">
+													<h3>PRODUCTS</h3>
+													<h5>EVENTS</h5>
+													<p>Comps,Seminars,&Challenges only</p>
+													<h5>STANDARD</h5>
+													<p>Full Growth Platform w/Events</p>
+													<h5>PREMIUM</h5>
+													<p>Integrated Website,Advanced Customizations
+													</p>
+												</li>
+												<li class="drop4">
+													<h3>INCLUDED TOOLS</h3>
+													<h5>ENGINE</h5>
+													<p>Membership Technology</p>
+													<h5>KIOSK</h5>
+													<p>Self-service point-of-sale</p>
+													<h5>APPOINTMENTS<sub>NEW</sub></h5>
+													<p>1-to-1 Appointment Scheduling</p>
+													<h5>CHALLENGES</h5>
+													<p>Online Fitness & Nutrition Challenges</p>
+												</li></li>
+
+
+
+											</div></li>
+											<li><a href="pricing.html">PRICING</a></li>
+											<li class="dropdown"><button onclick="myFunction()" class="dropbtn">RESOURCE<span class="arrow down"></span></button>
+												<div id="myDropdown" class="dropdown-content">
+													<ul class="drops">
+														<li class="drop1">
+															<h3>ABOUT</h3>
+															<h5>HOW WE STARTED & WHO WE SERVE</h5>
+															<p>Vision & Mission</p>
+														</li>
+														<li class="drop2">
+															<h3>FRE RESOURCES</h3>
+															<h5>NUTRITION CHALLENGE PLAY BACK</h5>
+															<p>Guide to running a Profitable Challenge</p>
+															<h5>2020 STATE OF CROSSFIT SURVEY REPORT</h5>
+															<p>The Latest Pulse Check on the Industry</p>
+															<h3>LATEST CASE STUDIES</h3>
+															<h5>WHY TRIIB IS AWESOME FOR MY GYM</h5>
+															<p>Events Case Study</p>
+														</li>
+														<li class="drop3">
+															<a href="blog.html">
+																<h3>OUR BLOG</h3></a>
+																<img src="pics/drop3.webp">
+															</li>
+															<li class="drop4">
+																<h3>TRIIB SUPPORT</h3>
+																<h5>HAVE QUESTIONS?CONTACT US!</h5>
+																<p>Get Clarity & Solutions</p>
+																<h5>VISIT HELP CENTER</h5>
+																<p>Tutorials,Setup Guides,& Walkthroughs</p>
+															</li>
+
+
+
+														</div></li>
+														<li><a href="login.html">LOG IN</a></li>
+														<li class="button"><a href="booking.html">GET A DEMO</a></li>
+													</ul>
+
+
+
+												</div>
+											</div>
+										</header>
+
+
+										<!-- for responsive -->
+										<header id="tog-header" class="mytoggle-header" >
+											<div class="myHeader-toggle">
+												<div class="triibLogo"><a href="triib.html"><img src="../triib/pics/logotriib.png" alt="triibLogo"></a></div>
+												<div class="togglemenu">
+													<ul class="t-menu">
+
+														<li><div class="toggleicon">&#9776;
+
+														</div>
+
+
+														<div id="resmenu" class="toggle-blck">
+															<ol class="toggle-mainlist">
+																<li id="softhov" class="headerMenuList showsoft"><a href="#">SOFTWARE</a></li>
+																<li><ul class="sub-toggle-menu">
+																	<li><p class="headLink"><a href="about.html">ABOUT</a></p></li>
+																	<li><p class="headLink"><a href="#">GYM MANGAGEMENT</a></p></li>
+																	<li><p class="headLink"><a href="#">PRODUCTS</a></p></li>
+																</ul>
+															</li>
+															<li class="headerMenuList"><a href="price.html">PRICING</a></li>
+															<li id="reshov" class="headerMenuList showres"><a href="#">RESOURCES</a></li>
+															<li><ul class="sub-toggle-menu">
+																<li><p class="headLink"><a href="about.html">ABOUT</a></p></li>
+																<li><p class="headLink"><a href="#">FREE RESOURCES</a></p></li>
+																<li><p class="headLink"><a href="blog.html">OUR BLOG</a></p></li>
+															</ul>
+														</li>
+														<li class="headerMenuList"><a href="login.html">LOG IN</a></li>
+														<li class="headerMenuList"><a href="login.html">we're Hiring!</a></li>
+													</ol>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</header>
+
+
+							<main class="main">
+								<section class="section-wrapper">
+									
+										<div class="background_banner">
+											<div class="container">
+											<div class="background_banner__flex">
+												<div class="background_banner__left">
+													<h1>We build fitness communities.</h1>
+													<p>Everything you need to excite your members, manage your gym and build your business.</p>
+													<div><hr></div>
+													<div class="block">
+													<a href="#learnm" class="block">
+													Learn more<span class="arrow1 right"></span></button></a></div>
+												
+												<div class="background_banner__right">
+													<img src="pics/macbook.webp">
+												</div>
+											</div>
+											</div>
+										</div>
+
+											<div class="background_banner__imgcutter"></div></div>
+										
+										
+
+										<div class="container">
+
+										<div class="indicator">
+											<div class="indicator1">
+												<img src="pics/image1.webp">
+											</div>
+											<div class="indicator2">
+												<img src="pics/image2.webp">
+											</div>
+											<div class="indicator3">
+												<img src="pics/image3.webp">
+											</div>
+											<div class="indicator4">
+												<img src="pics/image4.webp">
+											</div>
+											<div class="indicator5">
+												<img src="pics/image5.webp">
+											</div>
+											<div class="indicator6">
+												<img src="pics/image6.webp">
+											</div>
+											<div class="indicator7">
+												<img src="pics/image7.webp">
+											</div>
+										</div>
+									</div>
+							</section>
+							<section class="section-wrapper">
+								<div class="container">
+								<div class="midcontent">
+									<h2>Management software designed for community-builders</h2>												<p>With all the tools you need in one place, your business can operate stress-free, rise above the noise, and grow your membership.</p>
+								</div>
+
+							</div>
+					</section>
+					<section class="section-wrapper1">
+						<div class="container">
+							<div class="row">
+								<div class="col1">
+									<video width="320" height="240" autoplay muted loop>
+										<source src="videos/cols1.mp4" type="video/mp4">
+										</video>
+										<div class="cols1a">
+											<h3>Run Your Gym</h3>
+											<p>Streamline operations with one centralized platform. Get the insights you need to plan & execute your business’s next big goal.</p>
+										</div>
+									</div>
+									<div class="col2">
+										<video width="320" height="240" autoplay muted loop>
+											<source src="videos/cols2.mp4" type="video/mp4">
+											</video>
+											<div class="cols2a">
+												<h3>Empower Your Team</h3>
+												<p>Easily manage schedules, classes, and appointments. Track team availability, set commissions, and see payroll reports.</p>
+											</div>
+										</div>
+										<div class="col3">
+											<video width="320" height="240" autoplay muted loop>
+												<source src="videos/cols3.mp4" type="video/mp4">
+												</video>
+												<div class="cols3a">
+													<h3>Own Your Experience</h3>
+													<p>Create a stand-out member experience.  Customize memberships, marketing emails, and new offers. Expand with integrated events & challenges.</p>
+												</div>
+											</div>
+											<div class="col4">
+												<video width="320" height="240" autoplay muted loop>
+													<source src="videos/cols4.mp4" type="video/mp4">
+													</video>
+													<div class="cols4a">
+														<h3>Unlock New Growth</h3>
+														<p>Get clarity on your data and discover what’s working. Test and measure new offerings to find where your next growth phase will come from.</p>
+													</div>
+												</div>
+											</div>
+											<div class="master">
+												<h3>Master your customer experience</h3>
+												<p>We believe customer experience is central to whatever you want to accomplish.  So we designed tools to power you forward at every step of their journey.</p>
+											</div>
+										</div>
+									</section>
+									<section class="section-wrapper">
+										<div class="container">
+
+											<ul class="tabs"> 
+
+												<li class="tab-link current" data-tab="tab1" id="feature">Attract</li>
+												<li class="tab-link" data-tab="tab2">Engage</li>
+												<li class="tab-link" data-tab="tab3">Optimize</li>
+												<li class="tab-link" data-tab="tab4">Grow</li>
+
+											</ul>
+
+
+											<div id="tab1" class="tab-content current">
+												<div class="twos">
+													<div class="one">
+														<div class="vl1">
+															<span>01</span>|04
+														</div>
+														<h3>Attract more members</h3>
+														<p>Maximize your marketing efforts by driving new prospects to a fully integrated website with seamless signup forms. Capture new leads with trials, promotions, or a 1-on-1 ‘No Sweat’ intro.
+														Make their first interaction with your gym a lasting one with custom email automations and prospect management that helps your team stay organized and your prospects stay excited.</p>
+														<p>With digital waivers and doc-signing, everything is simple and signups are a breeze.</p>
+														<a href="#" class="one">Learn More</a>
+														<div class="tooltip">Tools:</p></div>
+														<div class="images">
+															<div class="one1image">
+																<img src="pics/one1.webp">
+																<h4>Prospect Management</h4>
+															</div>
+															<div class="one2image">
+																<img src="pics/one2.webp">
+																<h4>Signup Forms</h4>
+															</div>
+															<div class="one3image">
+																<img src="pics/one3.webp">
+																<h4>Appointments</h4>
+															</div>
+														</div>
+													</div>
+													<div class="two">
+														<img src="pics/two1.webp">
+													</div>
+												</div>
+											</div>
+
+
+
+
+											<div id="tab2" class="tab-content">
+												<div class="twos">
+													<div class="one">
+														<p class="vl1"><span class="vl">02</span>04</p><br><br>
+														<h3>Engage your community</h3>
+														<p>Build an experience that keep your members coming back. Announce new happenings and keep your community in the loop with group emailing, broadcast sms texts, and your own blog. Tie everything together with ONE universal mobile app. Users can sign-up for classes, join a waitlist, like & comment on friends workouts, and track their own workout progress.</p>
+														<p>No more switching between multiple apps!</p>
+														<a href="#" class="one">Learn More</a>
+														<div class="tooltip"><p>Tools:</p></div>
+														<div class="images">
+															<div class="one1image">
+																<img src="pics/one4.webp">
+																<h4>Mobile App</h4>
+															</div>
+															<div class="one2image">
+																<img src="pics/one5.webp">
+																<h4>Kiosk POS</h4>
+															</div>
+															<div class="one3image">
+																<img src="pics/one6.webp">
+																<h4>Performance Tracking</h4>
+															</div>
+														</div>
+													</div>
+													<div class="two">
+														<img src="pics/two2.webp">
+													</div>
+												</div>
+											</div>
+
+
+
+											<div id="tab3" class="tab-content">
+												<div class="twos">
+													<div class="one">
+														<p class="vl1"><span class="vl">03</span>04</p><br><br>
+														<h3>Optimize your operations</h3>
+														<p>Get clarity in your growth planning.
+														Use straight-forward dashboards to track key metrics while your custom reports can highlight new insights to guide your next big decision.</p>
+														<p>Now you can focus on offering the right products to the right members.
+														Whether it’s classes, online programs, personal training, nutrition coaching or something else, launching that new revenue stream you’ve been thinking about is only a few clicks away.</p>
+														<p>With customizations built deeply into the platform, Triib molds to how your business works.</p>
+														<a href="#" class="one">Learn More</a>
+														<div class="tooltip"><p>Tools:</p></div>
+														<div class="images">
+															<div class="one1image">
+																<img src="pics/one7.webp">
+																<h4>Dashboard</h4>
+															</div>
+															<div class="one2image">
+																<img src="pics/one8.webp">
+																<h4>Reporting</h4>
+															</div>
+															<div class="one3image">
+																<img src="pics/one9.webp">
+																<h4>Customizations</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="two">
+														<img src="pics/two3.webp">
+													</div>
+												</div>
+											</div>
+
+
+
+
+
+											<div id="tab4" class="tab-content">
+												<div class="twos">
+													<div class="one">
+														<p class="vl1"><span class="vl">04</span>04</p><br><br>
+														<h3>Grow your business</h3>
+														<p>Turn your members into fans, and then referrals.
+														Expand your network by easily running your own competitions, seminars, and challenges, all right from the same platform. Customize to your community with individual or team options. Keep it small with a 1-day competition or go big with a multi-week online challenges the whole business can get behind. The choice is yours.</p>
+														<p>With everything you need in one place, building your business just got easier.</p>
+														<a href="#" class="one">Learn More</a>
+														<div class="tooltip"><p>Tools:</p></div>
+														<div class="images">
+															<div class="one1image">
+																<img src="pics/one10.webp">
+																<h4>Events</h4>
+															</div>
+															<div class="one1image">
+																<img src="pics/one11.webp">
+																<h4>Challenges</h4>
+															</div>
+															<div class="pics/one1image">
+																<img src="pics/one12.webp">
+																<h4>Promotions</h4>
+															</div>
+														</div>
+													</div>
+
+
+													<div class="two">
+														<img src="pics/two4.webp">
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</section>
+									<section class="section-wrapper">
+										
+											<div class="platform">
+												<div class="container">
+													<div class="platformhead">
+												<div class="platform1">
+													<h3><img src="pics/Triib_Color_white.webp">Customer Promise</h3>
+													<p>Our ethos on how we treat customers.</p>
+													<a href="#">Read full version here</a>
+												</div>
+												<div class="platform2">
+													<div class="block_1">
+													<a href="#" class="block_1">See the platform<span class="arrow1 right"></span></a></div>
+												</div>
+											</div>
+										</div>
+										</div>
+										</div>
+
+										<div class="container">
+											<div class="personresponse">
+												<div class="person">
+													<img src="pics/person.webp">
+												</div>
+												<div class="response">
+													<h4>Partners, not just providers<sup>TM</sup></h4>
+													<p>Great businesses aren’t built flying solo. This is why we go beyond just providing you with software.</p>
+													<p>From a seamless onboarding to free trainings, same-day support, and account management, we go all-in to help you succeed</p>
+													<div class="responseaccount">
+														<div class="responseimg">
+															<img src="pics/response.webp">
+															<h3>Get responses</h3>
+															<p>(In hours, not days)</p>
+														</div>
+														<div class="account">
+															<img src="pics/account.webp">
+															<h3>Account consultants</h3>
+														</div>
+													</div>
+													<div class="block_2">
+													<a href="#" class="block_2">Get Support Help<span class="arrow1 right"></span></a></div>
+												</div>
+											</div></div>
+											<section class="section-wrapper">
+											<div class="anydaily">
+												<div class="container">
+													<div class="anydaily1">
+												<div class="anytime">
+													<h3>Anytime, anywhere</h3>
+													<ul class="lists">
+														<span><img src="pics/li1.webp"></span><li>Manage classes and member check-ins.</li>
+														<span><img src="pics/li2.webp"></span><li>Delight members with video content & custom programs</li>
+														<span><img src="pics/li3.webp"></span><li>Track fitness progress, personal bests, and promote engagement within your community.</li>
+													</ul>
+													<div class="block-3">
+													<a href="#" class="block-3">Take A Tour<span class="arrow1 right"></span></a>
+												</div>
+												</div>
+												<div class="daily">
+													<img src="pics/daily.webp">
+												</div>
+											</div>
+										</div></div>
+									</section>
+										<div class="testback">
+											<div class="container">
+												<div class="testimonials">
+													<h4>Testimonials</h4>
+													<p>Customer feedback drives our product innovations forward. This connection helps build the tools & services you need now and tomorrow.</p>
+												</div>
+												<div class="container">
+													<div class="slider">
+														<div class="slidersub">
+															<div class="sli__Para">	
+																<p>“It’s the only gym management system that allows me to take care of everything in one place. As fitness evolves, so does Triib.”
+																</p></div>
+																<div class="slider1">
+																	<img src="pics/slider1.webp">
+																	<h3>Justin Shaffer</h3>
+																	<p>Owner</p>
+																</div>
+															</div>
+
+
+
+															<div class="slidersub">
+																<div class="sli__Para">	
+																	<p>“Triib takes care of it all so I can take care of my members.”
+																	</p></div>
+																	<div class="slider1">
+																		<img src="pics/slider2.webp">
+																		<h3>Austin Malleolo</h3>
+																		<p>	Head coach, reebok global HQ founder, HAM Plan Programing</p>
+																	</div>
+																</div>
+
+																<div class="slidersub">
+																	<div class="sli__Para">	
+																		<p>“It’s the little details that are challenging in a gym – like members signing-up or signing in. Triib has made that process A LOT easier.”
+																		</p></div>
+																		<div class="slider1">
+																			<img src="pics/slider3.webp">
+																			<h3>Erica Snyder</h3>
+																			<p>Head coach,ONE Nation Fitness</p>
+																		</div>
+																	</div>
+
+
+																	<div class="slidersub">
+																		<div class="sli__Para">	
+																			<p> It helps me stay on top of my business. Our gym just runs much better with Triib.
+																			</p></div>
+																			<div class="slider1">
+																				<img src="pics/slider4.webp">
+																				<h3>J.C. Del Real</h3>
+																				<p>Owner, One nation fitness</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</section>
+													<section class="section-wrapper">
+
+														<div class="container">
+															<div class="trust">
+																<h4>Trusted globally</h4>
+																<img src="pics/trust.webp">
+															</div>
+															<div id="learnm">
+																<div class="meetingback"></div>
+																<div class="meeting">
+																	<img src="pics/meetings.svg">
+																	<form class="form1">
+																		<h3>Let's meet</h3>
+																		<p class="pf">Enter your email address and we'll connect you with the right person.</p>
+																		<p>Enter email-address* </p>
+																		<input name="email">
+																		<p id="message"></p>
+																		<button id="btn" >Start booking</button>
+
+																	</form>
+																</div>
+															</div>
+														</div>
+														<div class="ready">
+															<div class="container">
+																<div class="ready_cont">
+																<h3>Not ready yet?</h3>
+																<div class="ready_para">
+																<p>Get industry insights and strategies direct to your inbox.</p>
+
+																<p>Subscribe to our blog!</p></div>
+																<div class="form_start">
+																	<div class="form_strat1">
+																<form class="form2">
+																	<input type="email" placeholder="Enter your email*">
+																	<p id="message1"></p>
+																	<div class="subs">
+																	<button id="btn1">Subscribe</button>
+																	</div>
+																</div>
+															</div>
+																</form>
+															</div>
+														</div>
+														</div>
+													</section>
+												</main>
+												<footer class="footer">
+													<div class="container">
+														<a href="#" class="footer"><img src="pics/footer.webp"></a>
+														<div class="tif">
+															<a href="#" class="footer"><img src="pics/twitter.webp"></a>
+															<a href="#" class="footer"><img src="pics/instagram.webp"></a>
+															<a href="#" class="footer"><img src="pics/fb.webp"></a>
+														</div>
+														<p>2019 © TRIIB Inc. – Gym Management Software Solutions – All Rights Reserved.</p>
+														<hr>
+														<div class="footer-terms"><a href="#" class="footer-terms">Privacy Policy - Terms of Use</a></div>
+													</div>
+												</footer>
+												<div id="footer-bottom"></div>
+
+
+
+
+
+												<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+												<script type="text/javascript" src="triib.js"></script>
+												<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>			
+
+
+											</body>
+											</html>
+
+
